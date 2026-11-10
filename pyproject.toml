@@ -3,22 +3,14 @@ name = "handmade-toy"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-authors = [
-    { name = "maxb00", email = "barlowm15@gmail.com" }
-]
-requires-python = ">=3.15"
+requires-python = ">=3.12"
 dependencies = [
+    "accelerate>=1.15.0",
     "datasets>=5.1.0",
     "ipykernel>=7.4.0",
     "ipywidgets>=8.1.9",
     "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
     "nnsight>=0.8.2",
     "transformers>=5.22.1",
 ]
-
-[project.scripts]
-handmade-toy = "handmade_toy:main"
-
-[build-system]
-requires = ["uv_build>=0.13.7,<0.14.0"]
-build-backend = "uv_build"
