@@ -12,5 +12,6 @@ dependencies = [
     "jupyter>=1.1.1",
     "matplotlib>=3.11.2",
     "nnsight>=0.8.2",
+    "seaborn>=0.13.2",
     "transformers>=5.22.1",
 ]
